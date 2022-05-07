@@ -5,9 +5,11 @@ import java.util.Objects;
 public class Hogwarts {
 
     private String student;
+    private int Force;
 
-    public Hogwarts(String student) {
+    public Hogwarts(String student, int force) {
         this.student = student;
+        this.Force = force;
     }
 
     public String getStudent() {
@@ -16,5 +18,13 @@ public class Hogwarts {
 
     public void setStudent(String student) {
         this.student = student;
+    }
+
+    public int getForce() {
+        return Force;
+    }
+
+    public void setForce(int force) {
+        Force = force;
     }
 }

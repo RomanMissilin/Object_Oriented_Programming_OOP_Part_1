@@ -8,8 +8,8 @@ public class Slytherin extends Hogwarts{
     private int resourcefulness;
     private int lustForPower;
 
-    public Slytherin(String student, int inherentCunning, int determination, int ambition, int resourcefulness, int lustForPower) {
-        super(student);
+    public Slytherin(String student, int force, int inherentCunning, int determination, int ambition, int resourcefulness, int lustForPower) {
+        super(student, force);
         this.inherentCunning = inherentCunning;
         this.determination = determination;
         this.ambition = ambition;

@@ -8,8 +8,8 @@ public class Gryffindor extends Hogwarts {
     private int honour;
     private int bravery;
 
-    public Gryffindor(String student, int nobility, int honour, int bravery) {
-        super(student);
+    public Gryffindor(String student, int force, int nobility, int honour, int bravery) {
+        super(student, force);
         this.nobility = nobility;
         this.honour = honour;
         this.bravery = bravery;
@@ -37,18 +37,5 @@ public class Gryffindor extends Hogwarts {
 
     public void setBravery(int bravery) {
         this.bravery = bravery;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Gryffindor that = (Gryffindor) o;
-        return nobility == that.nobility && honour == that.honour && bravery == that.bravery;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(nobility, honour, bravery);
     }
 }

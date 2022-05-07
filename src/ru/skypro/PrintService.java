@@ -5,8 +5,7 @@ public class PrintService {
     public void print(Gryffindor[] gryffindors) {
 
         System.out.println("Список студентов = " + gryffindors.length);
-        for (int i = 0; i < gryffindors.length; i++) {
-            Gryffindor gryffindor = gryffindors[i];
+        for (Gryffindor gryffindor : gryffindors) {
             System.out.println("Имя - " + gryffindor.getStudent()
                     + "; Благородство - " + gryffindor.getNobility()
                     + "; Честь - " + gryffindor.getHonour()
@@ -18,8 +17,7 @@ public class PrintService {
     public void print(Hufflepuff[] hufflepuffs) {
 
         System.out.println("Список студентов = " + hufflepuffs.length);
-        for (int i = 0; i < hufflepuffs.length; i++) {
-            Hufflepuff hufflepuff = hufflepuffs[i];
+        for (Hufflepuff hufflepuff : hufflepuffs) {
             System.out.println("Имя - " + hufflepuff.getStudent()
                     + "; Трудолюбие - " + hufflepuff.getIndustrious()
                     + "; Верность - " + hufflepuff.getTrues()
@@ -31,8 +29,7 @@ public class PrintService {
     public void print(Ravenclaw[] ravenclaws) {
 
         System.out.println("Список студентов = " + ravenclaws.length);
-        for (int i = 0; i < ravenclaws.length; i++) {
-            Ravenclaw ravenclaw = ravenclaws[i];
+        for (Ravenclaw ravenclaw : ravenclaws) {
             System.out.println("Имя - " + ravenclaw.getStudent()
                     + "; Ум - " + ravenclaw.getSmart()
                     + "; Мудрость - " + ravenclaw.getWise()
@@ -45,8 +42,7 @@ public class PrintService {
     public void print(Slytherin[] slytherins) {
 
         System.out.println("Список студентов = " + slytherins.length);
-        for (int i = 0; i < slytherins.length; i++) {
-            Slytherin slytherin = slytherins[i];
+        for (Slytherin slytherin : slytherins) {
             System.out.println("Имя - " + slytherin.getStudent()
                     + "; Хитрость - " + slytherin.getInherentCunning()
                     + "; Решительность - " + slytherin.getDetermination()
