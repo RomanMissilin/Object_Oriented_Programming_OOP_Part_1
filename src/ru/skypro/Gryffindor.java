@@ -1,6 +1,5 @@
+/*
 package ru.skypro;
-
-import java.util.Objects;
 
 public class Gryffindor extends Hogwarts {
 
@@ -38,4 +37,4 @@ public class Gryffindor extends Hogwarts {
     public void setBravery(int bravery) {
         this.bravery = bravery;
     }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 package ru.skypro;
 
 public class SystemHogwarts {
@@ -70,4 +71,4 @@ public class SystemHogwarts {
             System.out.println(first.getStudent() + " и " + second.getStudent() + " Обладают равной силой");
         }
     }
-}
+}*/

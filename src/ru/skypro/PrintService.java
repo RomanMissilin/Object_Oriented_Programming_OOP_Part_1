@@ -1,3 +1,4 @@
+/*
 package ru.skypro;
 
 public class PrintService {
@@ -52,4 +53,4 @@ public class PrintService {
         }
         System.out.println();
     }
-}
+}*/

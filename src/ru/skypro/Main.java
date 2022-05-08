@@ -1,3 +1,4 @@
+/*
 package ru.skypro;
 
 public class Main {
@@ -95,4 +96,4 @@ public class Main {
 
         SystemHogwarts.compareHogwartsStudent(Justin, Graham);
     }
-}
+}*/

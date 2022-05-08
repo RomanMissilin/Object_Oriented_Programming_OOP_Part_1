@@ -1,6 +1,5 @@
+/*
 package ru.skypro;
-
-import java.util.Objects;
 
 public class Hogwarts {
 
@@ -27,4 +26,4 @@ public class Hogwarts {
     public void setForce(int force) {
         Force = force;
     }
-}
+}*/
