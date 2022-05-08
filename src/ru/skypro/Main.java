@@ -32,9 +32,9 @@ public class Main {
         };
 
         Ravenclaw[] ravenclaws = {
-                new Ravenclaw("Чжоу Чанг", 72,53, 57, 87),
-                new Ravenclaw("Падма Патил", 45,65, 86, 23),
-                new Ravenclaw("Маркус Белби", 84,76, 68, 96)
+                new Ravenclaw("Чжоу Чанг", 72,53, 57, 87, 34),
+                new Ravenclaw("Падма Патил", 45,65, 86, 23, 76),
+                new Ravenclaw("Маркус Белби", 84,76, 68, 96, 27)
         };
 
         Slytherin[] slytherins = {
@@ -74,8 +74,8 @@ public class Main {
 
     public static void task3() {
 
-        Ravenclaw Zhou = new Ravenclaw("Чжоу Чанг", 72, 53, 57, 87);
-        Ravenclaw Padma = new Ravenclaw("Падма Патил", 45, 65, 86, 23);
+        Ravenclaw Zhou = new Ravenclaw("Чжоу Чанг", 72, 53, 57, 87, 34);
+        Ravenclaw Padma = new Ravenclaw("Падма Патил", 45, 65, 86, 23, 76);
 
         SystemHogwarts.compareRavenclawStudents(Zhou, Padma);
     }
