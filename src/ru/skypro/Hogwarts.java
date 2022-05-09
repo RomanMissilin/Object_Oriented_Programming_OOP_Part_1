@@ -1,4 +1,3 @@
-/*
 package ru.skypro;
 
 public class Hogwarts {
@@ -26,4 +25,4 @@ public class Hogwarts {
     public void setForce(int force) {
         Force = force;
     }
-}*/
+}

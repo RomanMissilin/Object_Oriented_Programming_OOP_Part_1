@@ -1,4 +1,3 @@
-/*
 package ru.skypro;
 
 public class Ravenclaw extends Hogwarts{
@@ -47,4 +46,4 @@ public class Ravenclaw extends Hogwarts{
     public void setFullOfCreativity(int fullOfCreativity) {
         this.fullOfCreativity = fullOfCreativity;
     }
-}*/
+}

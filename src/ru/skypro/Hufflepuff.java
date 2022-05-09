@@ -1,4 +1,3 @@
-/*
 package ru.skypro;
 
 public class Hufflepuff extends Hogwarts {
@@ -37,4 +36,4 @@ public class Hufflepuff extends Hogwarts {
     public void setHonest(int honest) {
         this.honest = honest;
     }
-}*/
+}
