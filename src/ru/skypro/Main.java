@@ -28,7 +28,7 @@ public class Main {
         Hufflepuff[] hufflepuffs = {
                 new Hufflepuff("Захария Смит", 95,23, 76, 34),
                 new Hufflepuff("Седрик Диггори", 69,54, 75, 72),
-                new Hufflepuff("Джастин Финч-Флетчли", 57,56, 82, 34)
+                new Hufflepuff("Джастин Финч-Флетчли", 57,56, 82, 24)
         };
 
         Ravenclaw[] ravenclaws = {
@@ -90,9 +90,9 @@ public class Main {
 
     public static void task5() {
 
-        Hogwarts Justin = new Hogwarts("Джастин Финч-Флетчли", 57);
-        Hogwarts Graham = new Hogwarts("Грэхэм Монтегю", 65);
+        Hufflepuff Cedric = new Hufflepuff("Седрик Диггори", 69, 54, 75, 72);
+        Gryffindor Hermione = new Gryffindor("Гермиона Грейнджер", 87, 54, 67, 23);
 
-        SystemHogwarts.compareHogwartsStudent(Justin, Graham);
+        SystemHogwarts.compareHogwartsStudent(Hermione, Cedric);
     }
 }

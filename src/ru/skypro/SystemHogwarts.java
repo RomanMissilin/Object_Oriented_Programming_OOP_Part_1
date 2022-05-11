@@ -58,7 +58,7 @@ public class SystemHogwarts {
         System.out.println();
     }
 
-    public static void compareHogwartsStudent(Hogwarts first, Hogwarts second) {
+    public static void compareHogwartsStudent(Gryffindor first, Hufflepuff second) {
 
         int firstSum = first.getForce();
         int secondSum = second.getForce();
@@ -69,5 +69,8 @@ public class SystemHogwarts {
         } else {
             System.out.println(first.getStudent() + " и " + second.getStudent() + " Обладают равной силой");
         }
+    }
+    public void printSquare(int num) {
+        System.out.println(num * num);
     }
 }
